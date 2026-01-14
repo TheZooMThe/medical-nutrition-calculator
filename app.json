@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Medical Nutrition Calculator",
+    "slug": "medical-nutrition-calculator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "edgeToEdgeEnabled": true,
+      "package": "com.thezoomthe.medicalnutritioncalculator"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "550d7c64-0d50-461f-9849-871459046e78"
+      }
+    },
+    "plugins": [
+      "expo-sqlite"
+    ]
+  }
+}
